@@ -1,39 +1,60 @@
 .main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main .header {
-    flex: auto;
-    background: #1F2937 ;
-    border: 4px solid red;
-    height: 600px;
+  flex: auto;
+  background: #1f2937;
+  /* border: 4px solid red; */
+  height: 600px;
+  color: white;
+  flex-direction: row;
+}
+
+.header .spacing {
+  display: flex;
+  justify-content: space-around;
 }
 
 .main .footer {
-    flex: auto;
-    background: #1F2937 ;
-    border: 4px solid red;
-    height: 200px;
+  flex: auto;
+  background: #1f2937;
+  /* border: 4px solid red; */
+  height: 200px;
 }
 
 .main .one {
-    flex: auto;
-    background: #F9F1F8;
-    border: 4px solid red;
-    height: 400px;
+  flex: auto;
+  background: #f9f1f8;
+  /* border: 4px solid red; */
+  height: 400px;
 }
 
 .main .two {
-    flex: auto;
-    background: #E5E7EB;
-    border: 4px solid red;
-    height: 400px;
+  flex: auto;
+  background: #e5e7eb;
+  /* border: 4px solid red; */
+  height: 400px;
 }
 
 .main .three {
-    flex: auto;
-    background: #F9F1F8;
-    border: 4px solid red;
-    height: 400px;
+  flex: auto;
+  background: #f9f1f8;
+  /* border: 4px solid red; */
+  height: 400px;
 }
